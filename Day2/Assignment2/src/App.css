@@ -1,0 +1,15 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+}
+.card-box{
+  border: 1px solid rgb(247, 183, 151);
+  text-align: center;
+  padding: 50px;
+  background-color: antiquewhite;
+  border-radius: 12px;
+}
