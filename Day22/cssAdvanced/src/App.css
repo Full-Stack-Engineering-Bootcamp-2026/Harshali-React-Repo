@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* hover */
+.btn:hover {
+  background: blue;
+}
+
+/* after pseudo-element */
+.btn::after {
+  content: " (action)";
+}
+
+/* List spacing except last */
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Target second item */
+li:nth-child(2) {
+  color: red;
+}
+
+/* Card base */
+.card {
+  border: 2px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* before pseudo-element */
+.card::before {
+  content: "Card: ";
+  font-weight: bold;
+}
+
+/* Parent changes if child exists */
+.card:has(.error-text) {
+  border-color: red;
+  background-color: #f5dada;
+}
+
+/* Error text */
+.error-text {
+  color: red;
+}

@@ -34,8 +34,8 @@ export function Charts() {
   }
 
   return (
-    <div className="mt-10 bg-gray-900 p-6 rounded-xl">
-      <h2 className="text-lg font-semibold mb-4"> Revenue </h2>
+    <div className="mt-10 bg-gray-900 p-6 rounded-xl border border-gray-800">
+      <h2 className="text-lg font-semibold mb-4 text-white">Revenue</h2>
 
       <div className="h-[250px] flex items-center justify-center">
         <Doughnut data={data} options={options} />

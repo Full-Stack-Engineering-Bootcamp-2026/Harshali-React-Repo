@@ -1,0 +1,16 @@
+.grid-container{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.item{
+  padding: 70px;
+  text-align: center;
+  background-color: aqua;
+}

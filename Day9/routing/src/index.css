@@ -1,0 +1,12 @@
+
+.primary-nav{
+  background-color: antiquewhite;
+  padding: 20px
+}
+nav a{
+  margin-right: 16px;
+}
+nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+}
